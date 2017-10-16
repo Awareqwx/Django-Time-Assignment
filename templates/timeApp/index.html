@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Current Time</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'timeApp/css/style.css'%}">
+    </head>
+    <body>
+        <h2 id="timeheader">The current time and date:</h2>
+        <br/>
+        <div id="timebox">
+            <h2>{{date}}</h2>
+            <h2>{{time}}</h2>
+        </div>
+    </body>
+</html>

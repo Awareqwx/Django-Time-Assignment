@@ -1,0 +1,20 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    text-align: center;
+}
+
+#timeheader{
+    display: inline-block;
+    border: 2px outset black;
+}
+
+#timebox{
+    display: inline-block;
+    border: 3px outset black;
+    padding: 5px;
+    margin: 10px;
+    width: 400px;
+}
